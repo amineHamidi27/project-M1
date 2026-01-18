@@ -1,0 +1,22 @@
+-muwx
+-i led/led.ihx
+-M
+-X 0x0200
+-C 0x1c00
+-b HOME = 0x0000
+-b XSEG = 0x1c00
+-b PSEG = 0x1c00
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k /home/amine/Desktop/project/max2771_fx2lp/FX2LP/fx2lib/lib
+-k /usr/local/bin/../share/sdcc/lib/small
+-k /usr/local/share/sdcc/lib/small
+-l /home/amine/Desktop/project/max2771_fx2lp/FX2LP/fx2lib/lib/fx2.lib
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+led/led.rel
+
+-e
